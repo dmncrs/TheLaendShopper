@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "thelaendshopper"
+version = "0.1.0"
+description = ""
+authors = ["Domenic Roos <domenic.roos@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
